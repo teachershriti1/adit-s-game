@@ -193,7 +193,7 @@ text("Press Space to start",300,300)
   }
  }
 function reset(){
-  gameState=PLAY;
+  gameState=1;
   bulletGroup.destroyEach()
   zombieGroup1.destroyEach()
   zombieGroup2.destroyEach()
